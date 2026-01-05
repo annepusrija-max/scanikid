@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:scanikid12/pages/parent/parent_login.dart';
-import 'package:scanikid12/pages/home.dart';
-import 'package:scanikid12/pages/parent/parent_signup.dart';
-import 'package:scanikid12/pages/parent/parent_dashboard.dart';
-import 'package:scanikid12/pages/vendor/vendor_login.dart';
-import 'package:scanikid12/pages/vendor/vendor_signup.dart';
-import 'package:scanikid12/pages/vendor/vendor_dashboard.dart';
+import 'pages/parent/parent_login.dart';
+import 'pages/home.dart';
+import 'pages/parent/parent_signup.dart';
+import 'pages/parent/parent_dashboard.dart';
+import 'pages/vendor/vendor_login.dart';
+import 'pages/vendor/vendor_signup.dart';
+import 'pages/vendor/vendor_dashboard.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
-import 'package:scanikid12/pages/splash_screen.dart';
-import 'package:scanikid12/pages/auth_wrapper.dart';
+import 'pages/splash_screen.dart';
+import 'pages/auth_wrapper.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
